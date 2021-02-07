@@ -7,6 +7,10 @@ import CommandPattern.Commands.LightOnCommand;
 import CommandPattern.Commands.MacroCommand;
 import CommandPattern.RemoteControls.UndoableRemoteControl;
 
+/**
+ * Command - encapsulates a request as an object, thereby letting you parameterize clients with
+ * different requests, queue, or log requests, and supports undoable operations
+ */
 public class RemoteLoader {
     public static void main(String[] args) {
         final UndoableRemoteControl remoteControl = new UndoableRemoteControl();
